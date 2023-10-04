@@ -4,7 +4,7 @@
 version_name=$1
 push=$2
 dockerfile_path="ruby-$version_name.dockerfile"
-repository="jmrsnt/passenger-oracle"
+repository="jmrsnt/ruby-passenger"
 tag="$repository:$version_name"
 
 # Output build info
