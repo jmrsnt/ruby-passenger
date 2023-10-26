@@ -9,3 +9,11 @@ To use this image, add the code below to your Dockerfile
 ```Dockerfile
 FROM jmrsnt/ruby-passenger:<ruby-version>
 ```
+
+## Build
+
+To build this image, use the command
+
+```bash
+$ ./build <version>
+```
